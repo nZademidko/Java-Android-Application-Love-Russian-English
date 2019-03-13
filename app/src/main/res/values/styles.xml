@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:fontFamily">@font/cetry_gothic</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditText" parent="Text">
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+
+    <style name="ButtonInMenu" parent="Text">
+        <item name="android:width">@dimen/width_button_in_menu</item>
+        <item name="android:height">@dimen/height_button_in_menu</item>
+        <item name="android:layout_width">@dimen/width_button_in_menu</item>
+        <item name="android:layout_height">@dimen/height_button_in_menu</item>
+        <item name="android:layout_marginEnd">@dimen/layout_marginEnd_in_menu</item>
+        <item name="android:layout_marginStart">@dimen/layout_marginStart_in_menu</item>
+        <item name="android:textSize">@dimen/text_size_button_in_menu</item>
+    </style>
+
+    <style name="Green_Button" parent="ButtonInMenu">
+        <item name="android:background">@drawable/style_green_button</item>
+    </style>
+
+    <style name="Red_Button" parent="ButtonInMenu">
+        <item name="android:background">@drawable/style_red_button</item>
+    </style>
+
+    <style name="Blue_Button" parent="ButtonInMenu">
+        <item name="android:background">@drawable/style_blue_button</item>
+    </style>
+
+    <style name="Setting_Button" parent="ButtonInMenu">
+        <item name="android:background">@drawable/style_white_button</item>
+        <item name="android:textColor">@color/mainGreen</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text_in_help" parent="Text">
+        <item name="android:layout_marginTop">@dimen/text_margin_in_help</item>
+        <item name="android:textSize">@dimen/text_size_in_help</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Button_In_Game" parent="Text">
+        <item name="android:layout_width">60sp</item>
+        <item name="android:layout_height">80sp</item>
+        <item name="android:background">@drawable/style_button_in_game</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40sp</item>
+
+    </style>
+
+</resources>
