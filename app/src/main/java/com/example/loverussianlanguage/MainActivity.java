@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void onClickStartGame(){
         Intent intent = new Intent(MainActivity.this, LobbyActivity.class);
+        String additional = "Additional";
         startActivity(intent);
     }
 
